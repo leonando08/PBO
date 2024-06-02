@@ -6,6 +6,8 @@ public class Toko {
         
         Sepatu sepatu2 = new Sepatu("Adidas","Hitam",43,15);
         
+        Sepatu sepatu23 = new Sepatu("Puma","Hitam putih",43,10);
+        
         sepatu1.tampilData();
         sepatu1.setupdateSepatu();
         System.out.println("Stok setelah ditambahkan :"+sepatu1.getupdateSepatu());
